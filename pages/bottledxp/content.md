@@ -1,4 +1,6 @@
-# Bottled XP
+Bottled XP
+---
+
 Players can store EXP levels in bottles for later use.
 
 **The crafting recipe is simple. (shown below)**
@@ -10,7 +12,7 @@ Players can store EXP levels in bottles for later use.
  * Place a glass bottle in your crafting menu
 
  **You now have bottled EXP!**
- 
+
  * Hover over the bottle to view how much EXP is stored in it
 
  ![view](https://i.imgur.com/9u8v58k.png)

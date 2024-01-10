@@ -1,6 +1,5 @@
-
 Salvaging
-=========
+---
 
 Salvaging is a system to exchange tools, weapons, and armor for the raw materials used to create them.
 
