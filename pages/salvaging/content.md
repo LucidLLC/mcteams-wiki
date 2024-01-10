@@ -34,7 +34,9 @@ Salvage an item by right clicking the material block with it in your hand.
   
 ### Maintaining The Salvager
 
-Right clicking a Salvager will open its' main menu. ![menu](https://i.imgur.com/6MWzW4W.png)
+Right clicking a Salvager will open its' main menu. 
+
+![menu](https://i.imgur.com/6MWzW4W.png)
 
 Using a salvager reduces its durability. The **anvil button** is used to repair it. It costs **0.2 gold per depleted** durability to fully repair a Salvager.
 
