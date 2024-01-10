@@ -25,4 +25,3 @@ jobs:
                 FOLDER: compiled
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                 MESSAGE: "Publish: ({sha}) {msg}"
-                CLEAR_GLOBS_FILE: "./compiled/.clear-target-files"
