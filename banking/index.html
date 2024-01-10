@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MCTeams Wiki - Banking</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      body {
+        margin: 2%;
+      }
+
+      .content {
+
+        padding: 30px;
+        overflow-y: scroll;
+        height: min-content;
+      }
+
+       
+      nav.navbar-expand-md .navbar-nav {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        flex-direction: column;
+      }
+
+      .navbar-collapse-logo {
+        display: none;
+      }
+
+      @media (max-width: 768px) {
+        .navbar-expand-logo {
+          display: none;
+        }
+
+        .navbar-collapse-logo {
+          display: initial;
+        }
+
+        .content {
+          padding: 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand navbar-collapse-logo mb-0 h1" href="#">
+                <img
+                  src="/assets/images/logo.png"
+                  alt="Logo"
+                  width="30"
+                  height="30"
+                  class="d-inline-block align-text-top"
+                />
+                MCTeams / Wiki
+              </a>
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+           
+                    <li>
+                        <a class="navbar-brand navbar-expand-logo mb-0 h1" href="#">
+                            <img
+                              src="/assets/images/logo.png"
+                              alt="Logo"
+                              width="30"
+                              height="30"
+                              class="d-inline-block align-text-top"
+                            />
+                            MCTeams / Wiki
+                          </a>
+                    </li>
+
+                  
+                  <li class="nav-item">
+                    
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="/banking"
+                      >Banking</a
+                    >
+                    
+                  </li>
+                  
+                  <li class="nav-item">
+                    
+                    <a class="nav-link" href="/bottledxp"
+                      >Bottled XP</a
+                    >
+                    
+                  </li>
+                  
+                  <li class="nav-item">
+                    
+                    <a class="nav-link" href="/salvaging"
+                      >Salvaging</a
+                    >
+                    
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div class="col-md-8 content flex-column mb-auto"><h2>Account Banking System</h2>
+
+<blockquote>
+<p>Simply put, this is a system to dissuade players from logging out with their valuable items to keep tracking and raiding competitive.</p>
+</blockquote>
+
+<p>Every item / enchantment considered &ldquo;valuable&rdquo; has a minimum gold cost, and a maximum gold percentage cost. For each infraction, the system will attempt to fine the player with the gold percentage of their entire balance. If that amount is less than the minimum, then it will attempt with the minimum gold cost. If the player still does not have enough gold, there is a chance the system will take the item away permanently. This is subject to change, but is currently at 40%. A list of all valuable items / enchants can be found below.</p>
+
+<h3>Valuable Items:</h3>
+
+<ul>
+<li>Diamond Block | Worth: 4%, minimum 10g</li>
+<li>Iron Block | Worth: 2%, minimum 7g</li>
+<li>Obsidian | Worth: 2%, minimum 5g</li>
+<li>Enderpearl | Worth: 4%, minimum 15g</li>
+<li>Experience Bottle | Worth: 1%, minimum 5g</li>
+</ul>
+
+<h3>Valuable Enchantments:</h3>
+
+<ul>
+<li>Protection IV | Worth: 5%, minimum 20g</li>
+<li>Protection III | Worth: 5%, minimum 12g</li>
+<li>Sharpness V |  Worth: 7%, minimum 25g</li>
+<li>Sharpness IV | Worth: 6%, minimum 20g</li>
+<li>Sharpness III | Worth: 3%, minimum 10g</li>
+<li>Efficiency V | Worth: 4%, minimum 15g</li>
+<li>Efficiency IV | Worth: 1%, minimum 5g</li>
+<li>Silk Touch | Worth: 1%, minimum 5g</li>
+<li>Power V | Worth: 4%, minimum 15g</li>
+<li>Power IV | Worth: 3%, minimum 7g</li>
+<li>Infinity | Worth: 1%, minimum 5g</li>
+</ul>
+
+<h3>THINGS TO NOTE:</h3>
+
+<ul>
+<li>This will not apply to armor equipped by the player.</li>
+<li>Players are allowed to carry 2 swords, 1 pickaxe, and 1 bow without being fined.</li>
+</ul>
+</div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
